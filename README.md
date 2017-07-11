@@ -1,0 +1,4 @@
+React Native创建原生iOS组件原理及操作：
+1、native端先将UI组件封装好
+2、native端创建manager类用作js通信的桥梁，在manager类中使用RN提供的宏来将native端UI组件中的属性、方法暴露给js，供js调用
+3、js端导出native组件，将其处理成一个React组件供其他类使用
